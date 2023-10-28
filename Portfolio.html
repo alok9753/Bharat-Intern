@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Founder</p>
+                <h1>Hi, I'm <span>Alok Kumar.</span><br>Founder of <span>SRA ACADEMY.</span></h1>
+                              
+
+            </div>
+        </div>
+
+    </div>
+<!-------------------------------------------------------------about------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/background.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>I am Alok Kumar. The Founder of SRA ACADEMY. A Web Developer, a Data Scientist. I have developed this institute with the purpose of increasing the thinking ability in every students who will study in this ACADEMY. It will be the aim of mine and this ACADEMY to provide education and better understanding among students. </p><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievement')">Achievement</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Desining Websites.</li>
+                            <li><span>App Development</span><br>Desining Apps.</li>
+                            <li><span>Java Development</span><br>Desining App/Game/Software.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>Desining Websites at SRA Institute.</li>
+                            <li><span>2019-2021</span><br>Team lead at SRA Institute.</li>
+                            <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Desining Websites at SRA Institute.</li>
+                            <li><span>2016</span><br>Graduate from SRA Institute Jehanabad.</li>
+                            <li><span>2014</span><br>Master from SRA Institute Jehanabad.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-----------------------------------------------------------Services------------------------------------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Web Design means creating and designing websites. Here you will learn the various aspects including the layout, visual appearance, user interface and user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Java Development</h2>
+                    <p>Here you will learn about how you can develop various types of applications, including web applications, mobile apps, desktop software, enterprise systems, and more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Python Development</h2>
+                    <p>Python Development is about developing websites, data analysis, scripting, artificial intelligence, machine learning, automation, and more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------------------------------Portfolio------------------------------------------------------------------------------>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Battery Server</h3>
+                        <p>The app let you optimize and save yore Battery during using your phone.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Search Engine</h3>
+                        <p>It works based on the google search Engine.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                 </div>
+
+                <div class="work">
+                    <img src="Images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Task Manager</h3>
+                        <p>The app let you manage your task with urgency.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+     </div>
+     
+     <!-----------------------------------------------Contact------------------------------------------------------------>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>info@sracademy.com</p>
+                    <p>8757775616</p><br>
+                    <a href="https://www.linkedin.com/in/alok-kumar579/">Linkedin</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Mobile No." name="phone" placeholder="Your Mobile No." required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <button type="preview" class="btn btn3">Preview</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with ♥ by SRA ACADEMY</p><br>
+            <p>© Copyright 2023 SRA ACADEMY. All Rights Reserved.</p>
+        </div>
+     </div>
+    
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
